@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the dataset
-file_path = './food-app/src/components/FoodAI (2).xlsx'
+file_path = './food-app/src/components/FoodAI (2) (1) (2).xlsx'
 data = pd.read_excel(file_path)
 
 # Clean data and encode features

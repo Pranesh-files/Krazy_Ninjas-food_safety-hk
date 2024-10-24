@@ -6,10 +6,10 @@ class MainFile extends Component {
         super();
         this.state={
             Days :'' , 
-            Spoilage:'',
+            Appearance:'',
             Smell :'',
             Message:'ENTER ALL THE VALUES !',
-            Output:'Generating Output ...' , 
+            Output:'ENTER YOUR VALUES ' , 
             AllValues: false,
             img:null,
             imgPreview: '' ,
@@ -111,20 +111,14 @@ class MainFile extends Component {
                     className="spoilage-box" 
                     value={this.state.Spoilage} 
                     onChange={this.setSpoilage} 
-                    placeholder="ENTER SPOILAGE"
+                    placeholder="ENTER APPEARANCE"
                 />
                 <div className="button-box">
                     <button 
-                        onClick={this.CheckAllValues} 
+                        onClick={this.  CheckAllValues} 
                         className="gen-button">
                         GENERATE RESULT
                     </button>
-                    <input 
-                        type="file" 
-                        accept='image/*' 
-                        onChange={this.setImage} 
-                        className="file-button" 
-                    />
                 </div>
                 <input 
                     type="text" 
