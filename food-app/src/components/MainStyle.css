@@ -1,0 +1,71 @@
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.spoilage-box,.days-box,.smell-box{
+    width: 100%;
+    max-width: 600px; /* Adjust this value as needed */
+    margin: 10px auto; /* Centers the chat boxes horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for a nice effect */
+    background-color: #f9f9f9; /* Optional for background color */
+}
+.spoilage-box:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.days-box:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.smell-box:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.output-box {
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 20px auto; 
+    max-width: 700px;  
+    width: 100%;      
+    background-color: #f0f0f0; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    color: #333;        
+    font-size: large;    
+    line-height: 2.5;   
+}
+.button-box {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 400px;               
+    width: 100%;
+}
+
+.gen-button {
+    height:60px;
+    width: 100px;
+    margin-right: 10px; 
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.file-button {
+    margin-top: 16px;
+    margin-left: 10px; 
+    padding-left : 30px; 
+    padding-top: 10px;
+    padding-right: 5px;
+    border-radius: 20%;
+    color:white 
+}
+.file-button:hover{
+    cursor: pointer;
+}
